@@ -1,6 +1,6 @@
 ### Model Comparison and Selection
 
-Three machine learning algorithms were evaluated: Logistic Regression, Random Forest, and XGBoost. Their performance was compared using accuracy, precision, recall, F1-score, and ROC-AUC.
+Three Machine Learning Algorithms: Logistic Regression, Random Forest and XGBoost were assessed. They were compared in terms of accuracy, precision, recall, F1-score and ROC-AUC.
 
 | Metric | Logistic Regression | Random Forest | XGBoost |
 |---|---:|---:|---:|
@@ -12,8 +12,8 @@ Three machine learning algorithms were evaluated: Logistic Regression, Random Fo
 
 **Best Overall Model: Random Forest**
 
-Random Forest achieved the highest accuracy, precision, F1-score, and ROC-AUC in the initial model comparison. It also matched XGBoost's recall of 90.2%, making it the strongest overall candidate among the three models for this experiment.
+In the first model comparison, the highest accuracy, precision, F1 and ROC-AUC values were obtained by the Random Forest model. In addition, it also matched XGBoost's recall of 90.2%, which was the best of the three models in this experiment.
 
-Because identifying positive cases was a priority, threshold tuning was subsequently performed on a validation set. At a threshold of 0.30, the final Random Forest model achieved 99.0% recall on the previously used test set, with 76.5% precision and 82.6% accuracy. This demonstrates the trade-off between detecting more positive cases and generating more false positives.
+After the priority of identifying positive cases, tuning of thresholds was done on a validation set. The final Random Forest model had 76.5% precision, 82.6% accuracy and 99.0% recall on the test set used earlier with a threshold of 0.30. This shows that there is a trade-off between finding more positive cases and having more false positives.
 
-These results are preliminary and specific to this dataset and evaluation procedure. Further validation on independent data is required before drawing conclusions about real-world or clinical performance.
+These findings are preliminary and may only apply to this data and method of assessment. Conclusions on real world or clinical performance needs to be further validated with independent data.

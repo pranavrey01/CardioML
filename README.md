@@ -1,6 +1,6 @@
 ### Cross-Source Generalization Evaluation
 
-A source-based evaluation was carried out to determine if model performance varies depending on data source. AAll Cleveland records were held out for evaluation. The models were trained on records from Hungary, VA Long Beach, and Switzerland.
+A source-based evaluation was carried out to determine if model performance varies depending on data source. All Cleveland records were held out for evaluation. The models were trained on records from Hungary, VA Long Beach, and Switzerland.
 | Model | Accuracy | Precision | Recall | F1-score | ROC-AUC |
 |---|---:|---:|---:|---:|---:|
 | Logistic Regression | 73.4% | 68.6% | 77.0% | 0.725 | 0.832 |
